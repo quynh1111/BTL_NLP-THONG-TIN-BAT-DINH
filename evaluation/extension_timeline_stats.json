@@ -1,0 +1,9 @@
+{
+  "total_clean_articles_scanned": 39028,
+  "best_model_used": "E0_tfidf",
+  "corr_raw_vs_bbd_normalized": -0.2172,
+  "corr_bbd_E0_vs_E2": 0.3133,
+  "corr_bbd_E0_tfidf_vs_E2": 0.7907,
+  "corr_bbd_E1_vs_E2": 0.8124,
+  "corr_bbd_E3_vs_E2": 0.7922
+}

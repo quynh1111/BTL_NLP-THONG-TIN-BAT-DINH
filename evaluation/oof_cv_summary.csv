@@ -1,0 +1,6 @@
+﻿split,run_id,n_samples,macro_f1,f1_uncertain,precision_uncertain,recall_uncertain,hard_neg_count,hard_neg_fpr,evidence_exact_match_uncertain,evidence_token_f1_uncertain
+oof_cv,E0,184,0.7862,0.7665,0.8,0.7356,21,0.0476,0.6437,0.723
+oof_cv,E0_tfidf,184,0.8804,0.8791,0.8421,0.9195,21,0.0,0.8046,0.8424
+oof_cv,E1,184,0.8315,0.8306,0.7917,0.8736,21,0.0952,0.7011,0.762
+oof_cv,E2,184,0.8307,0.8187,0.8333,0.8046,21,0.0476,0.8046,0.8451
+oof_cv,E3,184,0.8795,0.869,0.9012,0.8391,21,0.0,0.7471,0.7962

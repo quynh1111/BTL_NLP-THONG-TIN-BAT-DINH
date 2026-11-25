@@ -1,0 +1,84 @@
+{
+  "run_id": "E0",
+  "method": "BBD-VN Rule/Lexicon v2.1 (Epistemic E+P+U/Proposal + Guarded Aleatoric Volatility + Negation Guardrail)",
+  "lexicon_version": "bbd_vn_lexicon_v2.1",
+  "seed": 42,
+  "economy_keywords": [
+    "kinh tế", "tài chính", "thị trường", "doanh nghiệp", "đầu tư", "tăng trưởng",
+    "lạm phát", "gdp", "cpi", "xuất khẩu", "nhập khẩu", "thương mại", "tín dụng",
+    "ngân hàng", "chứng khoán", "bất động sản", "trái phiếu", "thanh khoản",
+    "lãi suất", "tỷ giá", "giá vàng", "tiêu dùng", "chuỗi cung ứng", "sản xuất",
+    "vốn ngoại", "fdi", "thu nhập", "việc làm", "chi phí", "giá dầu",
+    "vàng miếng", "vàng nhẫn", "sjc", "usd", "vn-index", "cổ phiếu",
+    "giá bạc", "giá gas", "giá vé máy bay", "giá xăng", "thép", "hàng không",
+    "ngân sách", "thuế", "tài sản số", "tiền số"
+  ],
+  "policy_keywords": [
+    "chính sách", "chính phủ", "ngân hàng nhà nước", "nhnn", "quốc hội",
+    "bộ tài chính", "bộ công thương", "bộ xây dựng", "bộ kế hoạch",
+    "thủ tướng", "nghị định", "thông tư", "luật", "dự thảo", "quy định",
+    "thuế", "thuế quan", "thuế đối ứng", "hạn mức", "điều hành", "tài khóa",
+    "tiền tệ", "fed", "cục dự trữ liên bang", "ngân sách", "quy hoạch",
+    "cải cách", "cơ chế", "hướng dẫn", "trợ cấp", "giảm thuế", "chống bán phá giá",
+    "tái cơ cấu", "phá sản", "thể chế"
+  ],
+  "uncertainty_keywords": [
+    "bất định", "không chắc chắn", "chưa chắc chắn", "khó lường", "khó đoán",
+    "rủi ro", "lo ngại", "quan ngại", "băn khoăn", "nghi ngại", "thận trọng",
+    "cân nhắc", "chưa rõ", "bỏ ngỏ", "chờ đợi", "chờ hướng dẫn", "lấp lửng",
+    "khó dự báo", "biến động khó lường", "biến số", "bấp bênh", "bất ổn",
+    "trì hoãn", "xem xét lại", "chưa thống nhất", "kịch bản", "có thể thay đổi",
+    "nguy cơ", "áp lực biến động", "dè dặt", "chưa có kết luận"
+  ],
+  "proposal_draft_keywords": [
+    "dự thảo", "đề xuất", "kiến nghị", "lấy ý kiến", "trình quốc hội",
+    "trình chính phủ", "xem xét phương án", "nghiên cứu phương án", "đang nghiên cứu",
+    "chưa ban hành", "chưa áp dụng", "chưa có quyết định", "chưa ngã ngũ",
+    "câu hỏi đặt ra", "đột phá thể chế", "sửa đổi luật", "sửa đổi nghị định",
+    "nguy cơ áp thuế", "cảnh báo rủi ro", "triển vọng", "khó dự đoán",
+    "tính toán phương án", "bàn phương án", "cần làm rõ"
+  ],
+  "aleatoric_strong_keywords": [
+    "biến động mạnh", "đảo chiều", "quay đầu giảm", "quay đầu tăng", "lao dốc",
+    "rơi thẳng đứng", "trượt thẳng đứng", "tăng phi mã", "tăng trần", "giảm sàn",
+    "sập mạnh", "bất ngờ giảm", "bất ngờ tăng", "bất ngờ sụt", "bỗng giảm",
+    "ngược chiều", "thất thường", "rung lắc", "trồi sụt", "kịch trần",
+    "bán tháo", "bốc hơi", "tăng đột biến", "gia tăng bất thường",
+    "biến động dữ dội", "biến động khó lường"
+  ],
+  "aleatoric_moderate_keywords": [
+    "tăng vọt", "giảm sâu", "giảm nhanh", "tăng mạnh", "giảm mạnh",
+    "lập đỉnh", "lập kỷ lục"
+  ],
+  "aleatoric_volatility_keywords": [
+    "biến động mạnh", "đảo chiều", "quay đầu giảm", "quay đầu tăng", "lao dốc",
+    "rơi thẳng đứng", "trượt thẳng đứng", "tăng phi mã", "tăng trần", "giảm sàn",
+    "sập mạnh", "bất ngờ giảm", "bất ngờ tăng", "bất ngờ sụt", "bỗng giảm",
+    "ngược chiều", "thất thường", "rung lắc", "trồi sụt", "kịch trần",
+    "bán tháo", "bốc hơi", "tăng đột biến", "gia tăng bất thường",
+    "biến động dữ dội", "biến động khó lường",
+    "tăng vọt", "giảm sâu", "giảm nhanh", "tăng mạnh", "giảm mạnh",
+    "lập đỉnh", "lập kỷ lục"
+  ],
+  "market_asset_keywords": [
+    "giá vàng", "vàng miếng", "vàng nhẫn", "sjc", "tỷ giá", "usd",
+    "vn-index", "chứng khoán", "cổ phiếu", "giá dầu", "giá xăng",
+    "giá bạc", "giá gas", "tiền số", "tài sản số", "nhập khẩu",
+    "xuất khẩu", "trái phiếu", "ngoại tệ", "lãi suất liên ngân hàng"
+  ],
+  "corporate_result_guard_phrases": [
+    "lợi nhuận trước thuế", "lợi nhuận sau thuế", "kết quả kinh doanh",
+    "báo cáo tài chính", "doanh thu đạt", "lãi suất cho vay",
+    "lãi suất huy động", "lãi suất tiết kiệm", "xử phạt hành chính",
+    "khởi tố", "bắt tạm giam", "chuyển hồ sơ", "kết luận thanh tra",
+    "lừa đảo", "quảng cáo sai", "hỏi đáp", "người nộp thuế"
+  ],
+  "negation_certainty_phrases": [
+    "không còn lo ngại", "chính thức có hiệu lực", "đã được thông qua",
+    "chấm dứt tình trạng bất ổn", "ổn định vững chắc", "đã hoàn tất xử lý",
+    "không gây rủi ro", "xóa bỏ hoàn toàn rào cản"
+  ],
+  "min_e_hits": 1,
+  "min_u_hits": 1,
+  "require_p_or_strong_u": true
+}

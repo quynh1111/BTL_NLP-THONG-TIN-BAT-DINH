@@ -1,0 +1,11 @@
+﻿split,run_id,n_samples,macro_f1,f1_uncertain,precision_uncertain,recall_uncertain,f1_not_uncertain,precision_not_uncertain,recall_not_uncertain,accuracy,tp,fp,fn,tn,hard_neg_count,hard_neg_fpr,evidence_exact_match_uncertain,evidence_token_f1_uncertain,evidence_exact_match_all,evidence_token_f1_all,prediction_file
+dev,E0,50,0.899,0.8889,0.9091,0.8696,0.9091,0.8929,0.9259,0.9,20,2,3,25,5,0.0,0.6522,0.7488,0.62,0.7329,evaluation/dev_predictions_E0.csv
+dev,E0_tfidf,50,0.9199,0.9167,0.88,0.9565,0.9231,0.96,0.8889,0.92,22,3,1,24,5,0.0,0.8261,0.8611,0.76,0.829,evaluation/dev_predictions_E0_tfidf.csv
+dev,E1,50,0.8397,0.8333,0.8,0.8696,0.8462,0.88,0.8148,0.84,20,5,3,22,5,0.2,0.7826,0.8278,0.68,0.7621,evaluation/dev_predictions_E1.csv
+dev,E2,50,0.8572,0.8372,0.9,0.7826,0.8772,0.8333,0.9259,0.86,18,2,5,25,5,0.0,0.8261,0.8669,0.7,0.7798,evaluation/dev_predictions_E2.csv
+dev,E3,50,0.898,0.8837,0.95,0.8261,0.9123,0.8667,0.963,0.9,19,1,4,26,5,0.0,0.8261,0.8625,0.72,0.793,evaluation/dev_predictions_E3.csv
+test,E0,60,0.85,0.8475,0.9259,0.7812,0.8525,0.7879,0.9286,0.85,25,2,7,26,11,0.0,0.7188,0.7834,0.65,0.7231,evaluation/test_predictions_E0.csv
+test,E0_tfidf,60,0.8825,0.8923,0.8788,0.9062,0.8727,0.8889,0.8571,0.8833,29,4,3,24,11,0.0,0.6562,0.749,0.6167,0.7018,evaluation/test_predictions_E0_tfidf.csv
+test,E1,60,0.8141,0.8358,0.8,0.875,0.7925,0.84,0.75,0.8167,28,7,4,21,11,0.2727,0.7188,0.7867,0.6333,0.7084,evaluation/test_predictions_E1.csv
+test,E2,60,0.85,0.8525,0.8966,0.8125,0.8475,0.8065,0.8929,0.85,26,3,6,25,11,0.0909,0.6875,0.7659,0.6167,0.6953,evaluation/test_predictions_E2.csv
+test,E3,60,0.9333,0.9355,0.9667,0.9062,0.931,0.9,0.9643,0.9333,29,1,3,27,11,0.0,0.75,0.823,0.65,0.7258,evaluation/test_predictions_E3.csv
